@@ -1,0 +1,116 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.container_rs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1780px;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, #0cc0df, #ffde59);
+}
+
+/*SING IN*/
+
+.form_register {
+  padding-top: 35px;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 1030px;
+  height: 650px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+}
+
+.Register_text {
+  font-size: 40px;
+  font-family: inherit;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.form_registation {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 900px;
+  height: 525px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+}
+.SingIn_text {
+  font-size: 40px;
+  font-family: inherit;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 52px;
+}
+
+.button_s {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.SingIn_email,
+.SingIn_password {
+  background-color: #fff;
+  width: 745px;
+  height: 61px;
+  margin-bottom: 30px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+  padding-left: 35px;
+  font-size: 20px;
+}
+
+.SingIn_btn button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SingIn_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 745px;
+  height: 61px;
+  background-color: #0cc0df;
+  color: #fff;
+  border-radius: 100px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.SingIn_action_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: inherit;
+  color: rgba(0, 0, 0, 0.77);
+  padding-top: 45px;
+}
+
+.Register_action_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: inherit;
+  color: rgba(0, 0, 0, 0.77);
+  padding-top: 35px;
+}
+.SingIn_link {
+  color: #0cc0df;
+  text-decoration: underline;
+}
