@@ -1,4 +1,4 @@
-import { ReactComponent as Logo } from 'C:/Users/marke/my-bosi/my-first-react-application/src/mainpage/NavigationBar/Logo.svg';
+import { ReactComponent as Logo } from 'C:/Users/marke/my-bosi/my-first-react-application/BM_project/src/mainpage/NavigationBar/Logo.svg';
 import React, { useState } from 'react';
 import Img1 from './Group 4.svg';
 
@@ -23,7 +23,7 @@ export default function MainPage(){
       setActivities([...customEmotions, selectedEmotion]);
     } else if (selectedEmotion === 'Other' && customEmotion.trim() !== '') {
       setCustomEmotions([...customEmotions, customEmotion]);
-      setCustomEmotion(''); // Reset custom action input field after adding it
+      setCustomEmotion('');
     }
   };
 
@@ -44,7 +44,7 @@ export default function MainPage(){
       setActivities([...activities, selectedAction]);
     } else if (selectedAction === 'Other' && customAction.trim() !== '') {
       setActivities([...activities, customAction]);
-      setCustomAction(''); // Reset custom action input field after adding it
+      setCustomAction('');
     }
   };
 
@@ -57,7 +57,7 @@ export default function MainPage(){
   };
 
   /*COLOOR*/
-  const colors = ['#E6E6FA', '#FFF0F5', '#E6D690', '#E4717A', '#CCCCFF', '#A8E4A0', 'A8E4A0']; // Add more colors as needed
+  const colors = ['#E6E6FA', '#FFF0F5', '#E6D690', '#E4717A', '#CCCCFF', '#A8E4A0', 'A8E4A0'];
 
   const getRandomColor = () => {
     const randomIndex = Math.floor(Math.random() * colors.length);
@@ -80,7 +80,9 @@ export default function MainPage(){
         <header>
         <nav>
           <div className="logo">
+            <a href='./'>
             <Logo />
+            </a>
           </div>
           <ul className="menu_bar">
             <li className='nav_bar'>Біз жәйлі</li>
@@ -195,7 +197,7 @@ export default function MainPage(){
       <div className='notion_main'>
         <div className='Two_note'>
           <div className="note-container">
-            <div className="question_note">Қазіргі уақытта қандай эмоцияларды сезінесіз отырсыз?</div>
+            <div className="question_note">Қазіргі уақытта қандай эмоцияларды сезініп отырсыз?</div>
             <textarea
               className="note-textarea"
               placeholder="Сұрақтарға жауап беруге тырысып көріңіз (міндетті емес)..."

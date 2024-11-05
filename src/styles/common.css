@@ -12,7 +12,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 21px 86px;
+  padding: 18px 86px;
   background-color: #fff;
 }
 
@@ -20,6 +20,8 @@ nav {
   list-style-type: none;
   display: flex;
   gap: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 .menu li {
@@ -46,6 +48,31 @@ nav {
   justify-content: center;
   height: 100vh;
   background-image: linear-gradient(to bottom right, #ffde59, #0cc0df);
+}
+
+.but {
+  display: inline-block;
+  font-family: "Inter@import url(https://fonts.googleapis.com/css?family=Inter:500);";
+  font-size: 16px;
+  width: 80px;
+  padding: 10px;
+  text-decoration: none;
+  padding-bottom: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.but:hover {
+  background-color: #2980b9;
+  border: none;
+}
+.but:active {
+  background-color: #1c638e;
+  border: none;
 }
 
 .container {
@@ -156,7 +183,7 @@ nav {
 /*ACTION*/
 
 .Action_page {
-  background-image: url("C:/Users/marke/my-bosi/my-first-react-application/src/components/ActionComponent/bckg.svg");
+  background-image: url("C:/Users/marke/my-bosi/my-first-react-application/BM_project/src/components/ActionComponent/bckg.svg");
   background-size: cover;
   background-position: center;
 }
@@ -188,7 +215,7 @@ nav {
 /*Action TWO PAGE*/
 
 .ActionTwo_page {
-  background-image: url("C:/Users/marke/my-bosi/my-first-react-application/src/components/ActionTwoComponent/bckg.svg");
+  background-image: url("C:/Users/marke/my-bosi/my-first-react-application/BM_project/src/components/ActionTwoComponent/bckg.svg");
   background-size: cover;
   background-position: center;
 }

@@ -26,8 +26,8 @@ const Footer = () => {
         </a>
       </div>
       <div className="footer-info">
-        <p>&copy; 2023 Your Website. All rights reserved.</p>
-        <p>123 Street, City, Country</p>
+        <p>&copy; 2023 Барлық құқықтар сақталған.</p>
+        <p>Астана, Қазақстан</p>
       </div>
     </footer>
   );

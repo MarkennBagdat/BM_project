@@ -5,6 +5,7 @@ export default function LoginPage(){
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
 
+
   const handleLogin = () => {
     if (username === 'example' && password === 'password') {
       setError('');
