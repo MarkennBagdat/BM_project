@@ -23,17 +23,15 @@ Tupsana Jazbalary is an educational project designed to support mental well-bein
 6. **Tech Stack**:  
    The project was built using modern web technologies including HTML, CSS, JavaScript, and React.js. This tech stack allowed for a modular and scalable architecture, facilitating easy updates and maintenance.
 
+7. **User-Centric Features**:  
+   Contributed to features that allow users to journal their thoughts and feelings. These tools help users understand their emotional states and improve their mental health through self-reflection and analysis.
+
+## Conclusion
+The Tupsana Jazbalary project showcases my skills in design, development, and creating user-friendly applications focused on mental health. By implementing responsive design, interactive elements, and a strong content strategy, I helped develop a platform that supports users in their personal growth and emotional health journey.
+
 ![image](https://github.com/user-attachments/assets/720ef588-5610-4029-a486-6ff82ac1ef94)
 ![image](https://github.com/user-attachments/assets/c7199f0b-b598-455d-8d1d-af413ea29e9f)
 ![image](https://github.com/user-attachments/assets/03952a35-0de4-4e65-8d27-549ae4d0035a)
 ![image](https://github.com/user-attachments/assets/1ceaa51e-2f1e-4c1d-9903-b30a24f9472c)
 ![image](https://github.com/user-attachments/assets/e9fd326e-cba5-4280-b7e4-30fa9c7b9bf0)
 
-
-
-
-8. **User-Centric Features**:  
-   Contributed to features that allow users to journal their thoughts and feelings. These tools help users understand their emotional states and improve their mental health through self-reflection and analysis.
-
-## Conclusion
-The Tupsana Jazbalary project showcases my skills in design, development, and creating user-friendly applications focused on mental health. By implementing responsive design, interactive elements, and a strong content strategy, I helped develop a platform that supports users in their personal growth and emotional health journey.
